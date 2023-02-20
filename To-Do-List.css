@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+.heading {
+  text-align: center;
+  color: black;
+}
+.text {
+  color: black;
+}
+#incomplete-tasks {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+#completed-tasks {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+#incomplete-tasks-list {
+  list-style: decimal;
+}
+#completed-tasks-list {
+  list-style: decimal;
+}
+.list-element {
+  color: black;
+}
+.remove-btn {
+  margin: 5px;
+}
+.complete-btn {
+  margin: 5px;
+}
